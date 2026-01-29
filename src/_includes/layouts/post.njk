@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ title }}</h1>
+    <time class="post-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | postDate }}</time>
+  </header>
+
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+
+  <footer class="post-footer">
+    <a href="/" class="back-link">← Back to all posts</a>
+  </footer>
+</article>

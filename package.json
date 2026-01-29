@@ -1,0 +1,26 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ree2raz/my-blog-minimal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ree2raz/my-blog-minimal/issues"
+  },
+  "homepage": "https://github.com/ree2raz/my-blog-minimal#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

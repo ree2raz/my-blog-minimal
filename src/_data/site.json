@@ -1,0 +1,11 @@
+{
+  "title": "Your Blog Title",
+  "description": "A personal blog for technical thoughts and ideas",
+  "url": "https://yourusername.github.io",
+  "author": {
+    "name": "Your Name",
+    "email": "your@email.com",
+    "url": "https://yourwebsite.com"
+  },
+  "language": "en"
+}

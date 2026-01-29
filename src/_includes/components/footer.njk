@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-copyright">&copy; {{ page.date.getFullYear() if page.date else 2026 }} {{ site.author.name }}. All rights reserved.</p>
+    <p class="footer-tagline">{{ site.description }}</p>
+    <div class="footer-links">
+      <a href="/feed.xml" class="footer-link">RSS</a>
+      {% if site.author.github %}
+      <a href="https://github.com/{{ site.author.github }}" class="footer-link" target="_blank" rel="noopener">GitHub</a>
+      {% endif %}
+      {% if site.author.twitter %}
+      <a href="https://twitter.com/{{ site.author.twitter }}" class="footer-link" target="_blank" rel="noopener">Twitter</a>
+      {% endif %}
+    </div>
+  </div>
+</footer>

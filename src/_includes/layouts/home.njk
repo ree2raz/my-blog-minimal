@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+---
+<div class="home-container">
+  <section class="intro-section">
+    <p class="intro-text">{{ site.description }}</p>
+  </section>
+
+  <section class="posts-section">
+    <h2 class="section-title">Posts</h2>
+    <ul class="post-list">
+      {% for post in collections.posts | reverse %}
+      <li class="post-item">
+        <span class="post-date">{{ post.date | postDate }}</span>
+        <h3 class="post-title">
+          <a href="{{ post.url }}" class="post-link">{{ post.data.title }}</a>
+        </h3>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
