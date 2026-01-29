@@ -1,10 +1,10 @@
 {
-  "title": "Your Blog Title",
-  "description": "A personal blog for technical thoughts and ideas",
-  "url": "https://yourusername.github.io",
+  "title": "Get S*it Done :)",
+  "description": "compiled thoughts about random stuff",
+  "url": "https://ree2raz.github.io",
   "author": {
-    "name": "Your Name",
-    "email": "your@email.com",
+    "name": "ree2raz",
+    "email": "ree2raz@example.com",
     "url": "https://yourwebsite.com"
   },
   "language": "en"
