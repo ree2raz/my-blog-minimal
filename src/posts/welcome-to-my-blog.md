@@ -4,6 +4,7 @@ date: 2026-01-29
 description: A brief introduction to my new blog built with 11ty
 tags: ["introduction", "meta"]
 layout: layouts/post.njk
+draft: true
 ---
 
 Welcome to my new blog! This is a sample post to test the layout and styling.
